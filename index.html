@@ -28,6 +28,7 @@
             <p onclick="mostra_op1()" id="o1" class="option"><strong>SANDUÍCHES</strong></p>
             <P onclick="mostra_op2()" id="o2" class="option"><strong>TAPIOCAS</strong></P>
             <p onclick="mostra_op3()" id="o3" class="option"><strong>DIVERSOS</strong></p>
+            <p onclick="mostra_op7()" id="o7" class="option"><strong>CUSCUZ</strong></p>
             <p onclick="mostra_op4()" id="o4" class="option"><strong>BEBIDAS</strong></p>
             <p onclick="mostra_op5()" id="o5" class="option"><strong>SUCOS</strong></p>
             <p onclick="mostra_op6()" id="o6" class="option"><strong>REFRIGERANTES</strong></p>
@@ -117,8 +118,26 @@
             <div class="item"><p>17. Tapioca com Castanha</p> <div><p>R$ 05,00</p><p>R$ 10,00</p></div> </div>
             <div class="item"><p>18. Tapioca com Tucumã Queijo, e Ovo</p> <div><p>R$ 17,00</p><p>R$ 34,00</p></div> </div>
         </div>
-        
-        
+
+
+
+
+
+        <!--OPÇÕES DE CUSCUZ-->
+        <div class="opcao" id="op7">
+            <div class="img-item" id="diversos-img">
+                <img src="imagens/cuscuz.png" alt="Diversos">
+                <h1>CUSCUZ</h1>
+            </div>
+                        
+            <div class="item"><p>1. Cuscuz Básico</p> <p>R$ 05,00</p> </div>
+            <div class="item"><p>2. Cuscuz com Queijo</p> <p>R$ 08,00</p> </div>
+            <div class="item"><p>3. Cuscuz com Ovo</p> <p>R$ 08,00</p> </div>
+            <div class="item"><p>4. Cuscuz com Carne</p> <p>R$ 10,00</p> </div>
+            <div class="item"><p>5. Cuscuz com Carne e Ovo</p> <p>R$ 15,00</p> </div>
+        </div>
+
+
 
 
         <!--OPÇÕES DE DIVERSOS-->
@@ -128,18 +147,13 @@
                 <h1>DIVERSOS</h1>
             </div>
                         
-            <div class="item"><p>1. Cuscuz Básico</p> <p>R$ 05,00</p> </div>
-            <div class="item"><p>2. Cuscuz com Queijo</p> <p>R$ 08,00</p> </div>
-            <div class="item"><p>3. Cuscuz com Ovo</p> <p>R$ 08,00</p> </div>
-            <div class="item"><p>4. Cuscuz com Carne</p> <p>R$ 10,00</p> </div>
-            <div class="item"><p>5. Cuscuz com Carne e Ovo</p> <p>R$ 12,00</p> </div>
             <div class="item"><p>6. Bolo de Milho</p> <p>R$ 05,00</p> </div>
-            <div class="item"><p>7. Bolo de Macaxeira</p> <p>R$ 05,00</p> </div>
-            <div class="item"><p>8. Bolo de Chocolate</p> <p>R$ 05,00</p> </div>
+            <div class="item"><p>7. Bolo de Macaxeira</p> <p>R$ 07,00</p> </div>
+            <div class="item"><p>8. Bolo de Chocolate</p> <p>R$ 06,00</p> </div>
             <div class="item"><p>9. Bolo de Sardinha</p> <p>R$ 07,00</p> </div>
             <div class="item"><p>10. Farofa de Ovo</p> <p>R$ 09,00</p> </div>
             <div class="item"><p>11. Farofa de Jabá</p> <p>R$ 15,00</p> </div>
-            <div class="item"><p>12. Farofa de Carne</p> <p>R$ 15,00</p> </div>
+            <div class="item"><p>12. Farofa de Carne</p> <p>R$ 13,00</p> </div>
         </div>
 
 
@@ -152,7 +166,7 @@
                 <h1>BEBIDAS</h1>
             </div>
                         
-            <div class="item"><p>1. Café com / sem Leite</p> <p>R$ 05,00</p> </div>
+            <div class="item"><p>1. Café com / sem Leite</p> <p>R$ 07,00</p> </div>
             <div class="item"><p>2. Leite</p> <p>R$ 05,00</p> </div>
             <div class="item"><p>3. Achocolatado</p> <p>R$ 06,00</p> </div>
             <div class="item"><p>4. Água 500 ml</p> <p>R$ 05,00</p> </div>
@@ -173,7 +187,7 @@
             <div class="item"><p>2. TAPEREBÁ</p> <p>R$ 06,00</p> </div>
             <div class="item"><p>3. GOIABA</p> <p>R$ 06,00</p> </div>
             <div class="item"><p>4. CUPUAÇÚ</p> <p>R$ 06,00</p> </div>
-            <div class="item"><p>5. GRAVIOLA</p> <p>R$ 06,00</p> </div>
+            <!--<div class="item"><p>5. GRAVIOLA</p> <p>R$ 06,00</p> </div>-->
             <div class="item" style="justify-content: center;">
                 <div>
                     <div style="display: flex; flex-direction: column;">
@@ -208,6 +222,9 @@
 
 
 
+
+
+    <!--ENVIAR-->
         <div id="enviar">
             <input type="text-area" placeholder="Digite aqui o seu pedido">
             <a target="_blank" id="link"><button onclick="pedir()">PEDIR</button></a>

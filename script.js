@@ -17,6 +17,9 @@ function mostra_op1(){
 
     document.getElementById("op6").style.display = "none"
     document.getElementById("o6").style.backgroundColor = "transparent"
+
+    document.getElementById("op7").style.display = "none"
+    document.getElementById("o7").style.backgroundColor = "transparent"
 }
 
 
@@ -40,6 +43,9 @@ function mostra_op2(){
 
     document.getElementById("op6").style.display = "none"
     document.getElementById("o6").style.backgroundColor = "transparent"
+
+    document.getElementById("op7").style.display = "none"
+    document.getElementById("o7").style.backgroundColor = "transparent"
 }
 
 
@@ -63,6 +69,9 @@ function mostra_op3(){
 
     document.getElementById("op6").style.display = "none"
     document.getElementById("o6").style.backgroundColor = "transparent"
+
+    document.getElementById("op7").style.display = "none"
+    document.getElementById("o7").style.backgroundColor = "transparent"
 }
 
 
@@ -86,6 +95,9 @@ function mostra_op4(){
 
     document.getElementById("op6").style.display = "none"
     document.getElementById("o6").style.backgroundColor = "transparent"
+
+    document.getElementById("op7").style.display = "none"
+    document.getElementById("o7").style.backgroundColor = "transparent"
 }
 
 
@@ -109,6 +121,9 @@ function mostra_op5(){
 
     document.getElementById("op6").style.display = "none"
     document.getElementById("o6").style.backgroundColor = "transparent"
+
+    document.getElementById("op7").style.display = "none"
+    document.getElementById("o7").style.backgroundColor = "transparent"
 }
 
 
@@ -132,6 +147,36 @@ function mostra_op6(){
 
     document.getElementById("op6").style.display = "block"
     document.getElementById("o6").style.backgroundColor = "rgb(255, 237, 213)"
+
+    document.getElementById("op7").style.display = "none"
+    document.getElementById("o7").style.backgroundColor = "transparent"
+}
+
+
+
+
+
+function mostra_op7(){
+    document.getElementById("op1").style.display = "none"
+    document.getElementById("o1").style.backgroundColor = "transparent"
+
+    document.getElementById("op2").style.display = "none"
+    document.getElementById("o2").style.backgroundColor = "transparent"
+
+    document.getElementById("op3").style.display = "none"
+    document.getElementById("o3").style.backgroundColor = "transparent"
+
+    document.getElementById("op4").style.display = "none"
+    document.getElementById("o4").style.backgroundColor = "transparent"
+
+    document.getElementById("op5").style.display = "none"
+    document.getElementById("o5").style.backgroundColor = "transparent"
+
+    document.getElementById("op6").style.display = "none"
+    document.getElementById("o6").style.backgroundColor = "transparent"
+
+    document.getElementById("op7").style.display = "block"
+    document.getElementById("o7").style.backgroundColor = "rgb(255, 237, 213)"
 }
 
 
